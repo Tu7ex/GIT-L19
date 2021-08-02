@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html lang=”es">
+<html lang="es">
 <head>
-    <meta charset=”UTF-8″ />
-    <title>GIT Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta 
+        name="viewport" 
+        content="
+            width=device-width, 
+            initial-scale=1,
+            maximum-scale=3">
+    <title>Git Desarrollo Colaborativo</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
-<body> 
-    <header id="Cabecera">
-        <h1>GTI</h1>
-        <p>Desarrollo colaborativo</p>
+<body>
+    <header id="header">
+        <h1>GIT</h1>
+        <p>Desarrollo Colaborativo</p>
     </header>
     <section>
-        <h2>Areas de GTI</h2>
+        <h2>Areas de GIT</h2>
         <article>
             <h3>Working Directory</h3>
             <p>
-                Es el area de trabajo,donde raravez utiliza la linea
-                de comandos y especificamente estaremos  deployando archivos
+                Es el area de trabajo, donde rara vez utilizaremos la linea de comandos y especialmente donde estaremos realizando las modificaciones de nuestro proyecto, como la creacion de archivos, la modificacion de los mismos e incluso su eliminacion.
             </p>
             <ul class="commands">
-                <li><strong>dir || ls</strong>Muestra carpetas</li>
-                <li><strong>cd</strong>Cambia de directorio</li>
-                <li><strong>mkdir</strong>Crea una carpeta</li>
-                <li><strong>git init</strong>Inicializa un repositorios de Git en el direcotrio actual</li>
-                <li><strong>rm -rf .git</strong>elimina el repositorio de git <em>-rf fuerza el borrado </em></li>
+                <li><strong>dir || ls</strong> Muestra el contenido de la carpeta donde nos encontramos actualmente</li>
+                <li><strong>cd &lt;path> </strong> Cambia el directorio actual a la ruta especificada</li>
+                <li><strong>mkdir &lt;name></strong> Crea una carpeta con el nombre indicado</li>
+                <li><strong>git init</strong> Inicializa un repositorio de Git en el directorio actual</li>
+                <li><strong>rm -rf .git</strong> Elimina el repositorio de git, el parametr <em>-rf</em> indica que debe eliminar la carpeta de manera forzada</li>
+            </ul>
         </article>
     </section>
 </body>
