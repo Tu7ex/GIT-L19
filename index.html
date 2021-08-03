@@ -13,6 +13,16 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+    <nav>
+        <a href="#">GIT</a>
+        <button class="btn">&equiv;</button>
+        <ul class="menu">
+            <li><a href="#" title="Inicio">Inicio</a></li>
+            <li><a href="about.html" title="Acerca">Acerca</a></li>
+            <li><a href="gallery.html" title="Galeria">Galeria</a></li>
+            <li><a href="#contact" title="Contacto">Contacto</a></li>
+        </ul>
+    </nav>
     <header id="header">
         <h1>GIT</h1>
         <p>Desarrollo Colaborativo</p>
@@ -68,5 +78,21 @@
             </ul>
         </article>
     </section>
+    <section>
+        <h2>Apuntadores de GIT</h2>
+        <article>
+            <h3>HEAD</h3>
+            <p>
+                Apuntador movil que permite al usuario navegar dentro del historial de cambios mediante referencias, que pueden ser, absolutas como los numero de <em>HASH ej:ABC123F</em>; o relativas como <em>HEAD^ o HEAD~1</em> para deplazarse al commit ancestro o anterior de la posicion actual. Este apuntador nos indica donde nos encontramos dentro del historial de cambios.
+            </p>
+        </article>
+        <article>
+            <h3>BRANCH</h3>
+            <p>
+                Apuntador dinamico que se ubica en el ultimo commit de una historia en particular, podemos crearlas a partir de cualquier confirmacion de cambios, pero todas las ramas comparten algun punto en comun dentro del mismo arbol. La razon por la que existen es, por un lado, facilitar al usuario la navegacion dentro del historial de cambios y, por el otro, para trabajar paralelamente diferentes cambios, experimentales o no, sin afectar la historia principal.
+            </p>
+        </article>
+    </section>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
